@@ -1,0 +1,36 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ML",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/ExpensePrediction": {
+      "get": {
+        "tags": [
+          "ExpensePrediction"
+        ],
+        "operationId": "next-month-prediction",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

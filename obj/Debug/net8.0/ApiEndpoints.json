@@ -1,0 +1,24 @@
+[
+  {
+    "ContainingType": "ML.Controllers.ExpensePredictionController",
+    "Method": "NextMonthPrediction",
+    "RelativePath": "api/ExpensePrediction",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "next-month-prediction"
+  },
+  {
+    "ContainingType": "ML.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
